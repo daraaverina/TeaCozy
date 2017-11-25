@@ -20,11 +20,14 @@ html {
 .main-nav {
   list-style: none;
   margin-right: 10px;
+  background-color: black;
+  z-index: 4;
 }
 .main-nav a {
   text-decoration: underline;
   color: seashell;
   padding: 10px;
+  z-index: 4;
 }
 .main-header {
   height: 69px;
@@ -32,9 +35,17 @@ html {
   border-bottom: 1px solid seashell;
   position: fixed;
 }
-
 .logo {
   height: 50px;
   width: auto;
   margin-left: 10px;
+}
+.mission {
+  width: 1200px;
+  height: auto;
+}
+.mission img {
+  margin-top: 69px;
+  height: 700px;
+  width: 1200px;
 }
