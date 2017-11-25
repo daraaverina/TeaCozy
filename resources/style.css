@@ -1,8 +1,12 @@
 /*---FLEXBOX---*/
+.main-header,
+.main-nav {
+  display: flex;
+}
 
-
-
-
+.main-header {
+  justify-content: space-between;
+}
 
 
 
@@ -15,7 +19,16 @@ html {
   opacity: 0.9;
   text-align: center;
 }
-
+.main-nav {
+  list-style: none;
+}
+.main-header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
 
 .logo {
+
 }
