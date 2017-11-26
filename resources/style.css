@@ -20,6 +20,9 @@
   flex-direction: column;
   flex-basis: 280px;
 }
+.container .tea {
+  width: 1000px;
+}
 /*---MAIN-STYLE---*/
 body {
   font-family: Helvetica;
@@ -58,6 +61,7 @@ body {
 /*---Mission Statment---*/
 #mission {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: 1200px;
   background-position: center;
   background-repeat: no-repeat;
   height: 700px;
@@ -99,4 +103,12 @@ body {
 .location p {
   line-height: 50px;
 }
-/*---Footer---*/
+/*---CONTACTS---*/
+.contacts {
+  height: 200px;
+}
+/*---FOOTER---*/
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
