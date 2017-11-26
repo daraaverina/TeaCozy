@@ -19,6 +19,7 @@
 .location {
   flex-direction: column;
   flex-basis: 280px;
+  overflow: scroll;
 }
 .container .tea {
   width: 1000px;
