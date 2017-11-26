@@ -8,8 +8,19 @@
   justify-content: space-between;
 }
 
+.mission {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.mission-items {
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+
 /*---MAIN-STYLE---*/
-html {
+body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -17,35 +28,45 @@ html {
   opacity: 0.9;
   text-align: center;
 }
+
+
+/*---Header---*/
 .main-nav {
   list-style: none;
   margin-right: 10px;
-  background-color: black;
-  z-index: 4;
+  z-index: 1;
 }
 .main-nav a {
   text-decoration: underline;
   color: seashell;
   padding: 10px;
-  z-index: 4;
 }
 .main-header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
+  top: 0;
+  background-color: black;
 }
 .logo {
   height: 50px;
   width: auto;
   margin-left: 10px;
 }
+
+/*---Mission Statment---*/
 .mission {
-  width: 1200px;
-  height: auto;
-}
-.mission img {
-  margin-top: 69px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   height: 700px;
-  width: 1200px;
+  margin-top: 70px;
+}
+.mission-items {
+  display: block;
+  flex-wrap: wrap;
+  align-self: center;
+  background-color: black;
+  min-width: 100%;
 }
