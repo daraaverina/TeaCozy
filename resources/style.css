@@ -1,6 +1,7 @@
 /*---FLEXBOX---*/
 .main-header,
-.main-nav {
+.main-nav,
+.container {
   display: flex;
 }
 
@@ -17,6 +18,10 @@
   flex-wrap: wrap;
   align-self: center;
 }
+.container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 /*---MAIN-STYLE---*/
@@ -28,7 +33,6 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-
 
 /*---Header---*/
 .main-nav {
@@ -69,4 +73,11 @@ body {
   align-self: center;
   background-color: black;
   min-width: 100%;
+}
+/*---Tea of the Month section---*/
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
 }
